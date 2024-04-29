@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="ICON" href="./ASSETS/Netflix.png">
+    <style>
+        *{
+            margin: 0px;
+        }
+        H1 {
+            margin: 10px;
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+        }
+
+        body {
+            background-image: url(./ASSETS/images.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .REG {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .FORM {
+            width: 250PX;
+            height: 350px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgba(0, 0, 0, 0.75);
+            padding: 20px;
+            border: 0.5px solid white;
+            border-radius: 8px;
+            text-align: center;
+
+        }
+
+        .FORM input {
+            background-color: #302d2d;
+            color: aliceblue;
+            width: 200px;
+            height: 15px;
+            border: 1px solid black;
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+            margin: 5px;
+
+        }
+
+        button {
+            margin: 15px;
+            border: 1px solid red;
+            background-color: red;
+            color: white;
+            box-shadow: 2px 2px 2px red 2px 2px 2px red;
+            width: 200px;
+            height: 25px;
+            text-shadow: 2px 2px 3px white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        button:active {
+            font-weight: bold;
+
+        }
+
+       
+        a {
+            display: flex;
+            justify-content: end;
+            text-decoration: none;
+            margin: 5px;
+            color: white;
+            font-size: x-small;
+            font-weight: 700;
+
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        a:active {
+            font-style: italic;
+        }
+
+        p .sign {
+            display: inline-block;
+
+        }
+
+        .sub {
+            color: blue;
+            font-size: x-small;
+            font-weight: 800px;
+
+
+        }
+
+        .footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 70px;
+            background: rgba(0, 0, 0, 0.90);
+            color: white;
+            padding: 30px;
+
+        }
+
+        .footera {
+
+            margin: 30px;
+            font-weight: bold;
+            text-decoration: underline 1px solid;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            row-gap: 15px;
+            grid-template-rows: auto auto ;
+            justify-content: space-evenly;
+        }
+        .LAN{
+            background-color: black ;
+            color: white;
+            border: 1PX solid white;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <H1>NETFLIX</H1>
+    <div class="REG">
+        <div class="FORM">
+
+            <FORM>
+                <h2>Sign up</h2>
+
+                <input type="EMAIL tel" placeholder="Email OR Phone Number" required>
+                <input type="password" placeholder="password" required>
+                <input type="password" placeholder=" re-enter password" required>
+                <button>Sign up</button> <br>
+
+                <a href="./need help.html"> Need Help?</a>
+                <p style="text-align: left;font-size: xx-small; "> old to Netflix?<a style="font-size: x-small; font-weight: bold;" class="sign" href="./index.HTML">Sign in
+                        now </a></p>
+                <small>
+                    <p style="text-align: left; font-size: xx-small; color: whitesmoke; font-weight: 700">this page is protected by Google reCAPTCHA to
+                        ensure you're not a bot.<a class="sub" href="./learn more.html"><b>Learn more</b>
+                        </a></p>
+                </small>
+        </div>
+    </div>
+
+    <div class="footer">
+
+
+        <small style="padding: 30px 290px;">QUESTIONS? CALL 000-800-919-1694</small>
+        <div class="footera">
+            <a href="#">FAQ</a>
+            <a href="#">Help Center</a>
+            <a href="#">Term of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Corporate information</a>
+
+           
+
+        </div>
+        <form >
+  
+            <select class="LAN"  name="lanauage" id="lanauage">
+              <option value="volvo"> English</option>
+              <option value="saab">தமிழ்</option>
+              <option value="saab">हिंदी</option>
+              
+             
+            </select>
+            
+          </form>
+
+    </div>
+
+</body>
+
+</html>
